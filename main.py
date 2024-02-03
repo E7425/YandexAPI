@@ -1,8 +1,8 @@
-import os
 import sys
 
 import pygame
 import requests
+
 
 def get_params(json_data, spn=("0.005", "0.005")):
     toponym = json_data["response"]["GeoObjectCollection"][
